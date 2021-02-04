@@ -1,0 +1,43 @@
+{
+  "name": "SlayingDjangoNdReact",
+  "version": "1.0.0",
+  "description": "install code have pip3 and python3  pip3 install pipenv pipenv shell (Make a new venv) pipenv install django djangorestframework django-rest-knox django-admin startproject projectName python manage.py startapp appName Under project in setting.py add rest_framework and all others apps in INSTALLED_APPS  Make a model in your app.... afterwards run python manage.py makemigrations appname python manage.py migrate make a serliazer.py and api.py file in your app In serializer add your fields you want to seralize and send as json ..... can do '___all__' by making a class and inside it extends Meta",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./leadmanager/frontend/src/index.js --output-path ./leadmanager/frontend/static/frontend/",
+    "build": "webpack --mode development ./leadmanager/frontend/src/index.js --output-path ./leadmanager/frontend/static/frontend/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder-Aht007/SlayingDjangoNdReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coder-Aht007/SlayingDjangoNdReact/issues"
+  },
+  "homepage": "https://github.com/Coder-Aht007/SlayingDjangoNdReact#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  }
+}
